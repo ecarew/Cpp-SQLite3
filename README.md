@@ -1,8 +1,10 @@
 # Cpp-SQLite3
 
+This is my repo that I use for including SQLite3 as a submodule in my projects
+
 SQLite3 is released in Public Domain https://www.sqlite.org/copyright.html
 
-Website: https://www.sqlite.org/index.html
+Website: https://www.sqlite.org/
 
 ## From The website
 What Is SQLite?
