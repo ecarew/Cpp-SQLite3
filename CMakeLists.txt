@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.8)
 
 project(SQLite3
     LANGUAGES C
-    VERSION 3.36.0
+    VERSION 3.38.5
 )
 
 add_definitions(-DSQLITE_ENABLE_RTREE)
@@ -17,7 +17,7 @@ add_definitions(-DSQLITE_ENABLE_RBU)
 add_definitions(-DSQLITE_ENABLE_STAT4)
 
 ## Comment this line out for threaded variant ( Using single right now because threads gave me issues )
-#add_definitions(-DSQLITE_THREADSAFE=0)
+add_definitions(-DSQLITE_THREADSAFE=0)
 
 set(Sources
     src/shell.c
